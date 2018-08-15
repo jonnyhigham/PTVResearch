@@ -1,19 +1,20 @@
 ---
-title: 'PTVResearch:Particle tracking for all types of research applications'
+title: 'PTVResearch: Robust particle tracking for all types of research applications'
 tags:
   - MatLab
   - AppDesigner
   - Particle Tracking Velocimetry
   - Particle Image Velocimetry
-  - milky way
+  - Optical Flow
+  - Lucas Kanade 
+  - PODDEM
+  - Proper Orthogonal Decomposition (POD)
 authors:
-  - name: Adrian M. Price-Whelan
-    orcid: 0000-0003-0872-7098
-    affiliation: "1" # (Multiple affiliations must be quoted)
+  - name: Jonathan E. Higham
+    orcid: 0000-0001-7577-0913
 affiliations:
- - name: Higham Jonathan, Research. Fellow, National Engergy Technology Labs., Department of Energy, Morgantown, WV.
-   index: 1
-date: 20 August 2018
+ - name: National Engergy Technology Labs., Department of Energy, Morgantown, WV.
+date: 16 August 2018
 bibliography: paper.bib
 ---
 
@@ -74,8 +75,7 @@ Figures can be included like this: ![Example figure.](figure.png)
 
 # Acknowledgements
 
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
+We acknowledge help debugging the software from Dr. Victor Francia and Mr. Kaiqiao Wu (University College London) and Kai. Also  
 
 # References
 Example paper.bib file:
