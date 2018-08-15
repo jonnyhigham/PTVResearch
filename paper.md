@@ -75,5 +75,5 @@ Figures can be included like this: ![Example figure.](figure.png)
 
 # Acknowledgements
 
-We acknowledge help debugging the software from Dr. Victor Francia and Mr. Kaiqiao Wu (University College London) and Kai. Also  
+We acknowledge help debugging the software from Dr. Victor Francia and Mr. Kaiqiao Wu (University College London) and Kai. Funding provided by Oakridge Institute for Science and Education. 
 
