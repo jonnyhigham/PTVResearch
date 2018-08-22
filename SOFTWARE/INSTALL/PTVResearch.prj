@@ -1,0 +1,80 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2021951161" file="/Users/jonnyhigham/Dropbox/CURRENT_THINGS/LETICIA/PTV_GUI/PTVResearch.prj" location="/Users/jonnyhigham/Dropbox/CURRENT_THINGS/LETICIA/PTV_GUI" name="PTVResearch" target="target.mlapps" target-name="Package App">
+    <param.appname>PTVResearch</param.appname>
+    <param.authnamewatermark>Jonathan Higham</param.authnamewatermark>
+    <param.email>PTVResearch</param.email>
+    <param.company />
+    <param.icon>${PROJECT_ROOT}/PTVResearch_resources/icon_24.png</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/PTVResearch_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/PTVResearch_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/PTVResearch_resources/icon_16.png</file>
+    </param.icons>
+    <param.summary>PTVResearch: Robust particle tracking for all types of research applications</param.summary>
+    <param.description>PTVResearch a GUI based code for particle tracking and particle image velocimetry based on the Lucas Kanade solutions to the optical flow equations. This code offers some of the most state of the art post processing techniques both Euclidean and Lagrangian. The post processing functions include image de-warping methods, the proper orthogonal decomposition and the PODDEM algorithm. This is a very early version of the code. Please follow the project for updates and for documentation.</param.description>
+    <param.screenshot>/private/var/folders/gm/_y0b5k5s47sbtzcy132ygzzr0000gn/T/tp20fd3efe_1d38_436e_8e11_d2b4481e464e.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name>
+      <item>MATLAB</item>
+      <item>Computer Vision System Toolbox</item>
+      <item>Image Processing Toolbox</item>
+    </param.products.name>
+    <param.products.id>
+      <item>1</item>
+      <item>96</item>
+      <item>17</item>
+    </param.products.id>
+    <param.products.version>
+      <item>9.4</item>
+      <item>8.1</item>
+      <item>10.2</item>
+    </param.products.version>
+    <param.platforms />
+    <param.output>/Users/jonnyhigham/Dropbox/CURRENT_THINGS/LETICIA/PTV_GUI</param.output>
+    <param.guid>4241eeb4-8d6b-4e06-afe2-6b26393de824</param.guid>
+    <unset>
+      <param.company />
+      <param.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/PTVResearch.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/loading.jpg</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/Users/jonnyhigham/Dropbox/CURRENT_THINGS/LETICIA" name="PTV_GUI" optional="false">/Users/jonnyhigham/Dropbox/CURRENT_THINGS/LETICIA/PTV_GUI</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2018a.app</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.13.4</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
